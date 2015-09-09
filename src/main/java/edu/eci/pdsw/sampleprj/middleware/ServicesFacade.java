@@ -40,7 +40,7 @@ public class ServicesFacade {
     }
     
     /**
-     * @obj calkular el kosto de una lista de productos
+     * @obj calcular el costo de una lista de productos
      * @param lp lista de productos corespondientes a una lista de compras
      * @return el costo total de la lista de compras
      * @throws ServicesException si uno de los elementos de la lista no está
