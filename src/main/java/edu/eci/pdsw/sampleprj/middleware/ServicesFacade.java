@@ -68,9 +68,8 @@ public class ServicesFacade {
      * @return el producto, o null si no hay un producto con el identificador
      * dado
      */
-    public Producto consultarProducto(int id){
-        
-        return null;
+    public Producto consultarProducto(int id){        
+        return pf.getProductoPorID(id);
     }
     
 }
