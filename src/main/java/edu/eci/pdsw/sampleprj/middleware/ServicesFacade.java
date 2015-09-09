@@ -55,6 +55,8 @@ public class ServicesFacade {
                 throw new ServicesException("Se intenta calcular el costo"
                         + "de una lista de compras que tiene al menos"
                         + "un producto no registrado.");
+            }else{
+                total = total + p.getPrecioEnPesos();
             }
         }
         
