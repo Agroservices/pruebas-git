@@ -82,6 +82,14 @@ public class servicesFacadeTest {
         
         
     }
+    
+    @Test
+    public void consultarProducto() throws ServicesException{
+        Producto p = new Producto(8, "Guillo", 10);
+        sf.registrarProducto(p);
+        Producto p2 = sf.consultarProducto(8);
+        assertEquals(p, p2);
+    }
 
     
 }
